@@ -14,5 +14,5 @@ WORKDIR /usr/app/
 EXPOSE 8080 
 # expose 8080 - is optional , this is the port no where my application is running
 
-ENTRYPOINT ["java", "-jar", "demo-app.jar"]
+ENTRYPOINT ["java", "-jar", "demo-app-docker.jar"]
 # this demo-app.jar will be present in target folder 
