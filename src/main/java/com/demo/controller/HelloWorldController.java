@@ -11,6 +11,6 @@ public class HelloWorldController {
 	
 	@GetMapping("/msg")
 	public String getMesage() {
-		return "Hello-world-mintu-mumbai-nm";
+		return "Hello-world-mintu-mumbai-nm-mh";
 	}
 }
